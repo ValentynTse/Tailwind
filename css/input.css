@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+
+   @apply bg-slate-700 pb-4;
+}
+
+h1{
+   @apply text-white text-center font-bold uppercase text-5xl mb-4
+}
+.header {
+   @apply max-w-5xl mx-auto flex justify-between h-20 items-center font-bold text-white;
+}
+
+.header__list {
+   @apply flex gap-5;
+}
+
+.header__link {
+   @apply hover:underline hover:text-yellow-400;
+}
+
+.btn {
+   @apply flex justify-center items-center bg-white text-blue-700 rounded-xl border hover:bg-yellow-400 hover:text-white px-6 py-2 mb-4 mx-auto transition-colors duration-100;
+}
